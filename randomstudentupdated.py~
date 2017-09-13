@@ -1,10 +1,3 @@
-"""
-Team AABB(CCDD)
-Adam Abbas + Bayan Berri
-SoftDev1 pd7
-HW2 -- NO-body expects the Spanish Inquisition
-2017-9-13
-"""
 import random
 
 CLASSES = {
@@ -16,7 +9,6 @@ CLASSES = {
         9: [ 'Yu Qi', 'Michela', 'Kristin', 'Fabiha', 'Maxim', 'Marcus', 'Ish', 'James', 'Ryan', 'Edward', 'Adeeb', 'Jake', 'Cynthia', 'Kevin', 'Levi', 'Edmond', 'Kyle', 'Andrew', 'Max', 'Jenny', 'Philip', 'Shan', 'Mansour', 'Ray', 'Jake', 'Ida', 'Kerry', 'Stanley', 'Jackie', 'William', 'Tina', 'Michael']
 
 }
-
 def randomStud(period): #Input your period!
     classList = CLASSES[period] #Get the list corresponding to the chosen period
     return classList[int(random.randrange(len(classList)))] #Return a random index, ranging from 0 to the length of the list.
